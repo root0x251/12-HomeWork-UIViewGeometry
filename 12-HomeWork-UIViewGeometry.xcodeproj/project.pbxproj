@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F93C7A8A1E8802E90044FBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F93C7A891E8802E90044FBCD /* main.m */; };
+		F93C7A8D1E8802E90044FBCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F93C7A8C1E8802E90044FBCD /* AppDelegate.m */; };
+		F93C7A901E8802E90044FBCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F93C7A8F1E8802E90044FBCD /* ViewController.m */; };
+		F93C7A931E8802E90044FBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93C7A911E8802E90044FBCD /* Main.storyboard */; };
+		F93C7A951E8802E90044FBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93C7A941E8802E90044FBCD /* Assets.xcassets */; };
+		F93C7A981E8802E90044FBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93C7A961E8802E90044FBCD /* LaunchScreen.storyboard */; };
+		F93C7AA31E8802E90044FBCD /* _2_HomeWork_UIViewGeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F93C7AA21E8802E90044FBCD /* _2_HomeWork_UIViewGeometryTests.m */; };
+		F93C7AAE1E8802E90044FBCD /* _2_HomeWork_UIViewGeometryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F93C7AAD1E8802E90044FBCD /* _2_HomeWork_UIViewGeometryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F93C7A9F1E8802E90044FBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93C7A7D1E8802E80044FBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93C7A841E8802E80044FBCD;
+			remoteInfo = "12-HomeWork-UIViewGeometry";
+		};
+		F93C7AAA1E8802E90044FBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93C7A7D1E8802E80044FBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93C7A841E8802E80044FBCD;
+			remoteInfo = "12-HomeWork-UIViewGeometry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F93C7A851E8802E80044FBCD /* 12-HomeWork-UIViewGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "12-HomeWork-UIViewGeometry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93C7A891E8802E90044FBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F93C7A8B1E8802E90044FBCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F93C7A8C1E8802E90044FBCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F93C7A8E1E8802E90044FBCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F93C7A8F1E8802E90044FBCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F93C7A921E8802E90044FBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F93C7A941E8802E90044FBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F93C7A971E8802E90044FBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F93C7A991E8802E90044FBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93C7A9E1E8802E90044FBCD /* 12-HomeWork-UIViewGeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "12-HomeWork-UIViewGeometryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93C7AA21E8802E90044FBCD /* _2_HomeWork_UIViewGeometryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_HomeWork_UIViewGeometryTests.m; sourceTree = "<group>"; };
+		F93C7AA41E8802E90044FBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93C7AA91E8802E90044FBCD /* 12-HomeWork-UIViewGeometryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "12-HomeWork-UIViewGeometryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93C7AAD1E8802E90044FBCD /* _2_HomeWork_UIViewGeometryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_HomeWork_UIViewGeometryUITests.m; sourceTree = "<group>"; };
+		F93C7AAF1E8802E90044FBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F93C7A821E8802E80044FBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93C7A9B1E8802E90044FBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93C7AA61E8802E90044FBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F93C7A7C1E8802E80044FBCD = {
+			isa = PBXGroup;
+			children = (
+				F93C7A871E8802E80044FBCD /* 12-HomeWork-UIViewGeometry */,
+				F93C7AA11E8802E90044FBCD /* 12-HomeWork-UIViewGeometryTests */,
+				F93C7AAC1E8802E90044FBCD /* 12-HomeWork-UIViewGeometryUITests */,
+				F93C7A861E8802E80044FBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F93C7A861E8802E80044FBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93C7A851E8802E80044FBCD /* 12-HomeWork-UIViewGeometry.app */,
+				F93C7A9E1E8802E90044FBCD /* 12-HomeWork-UIViewGeometryTests.xctest */,
+				F93C7AA91E8802E90044FBCD /* 12-HomeWork-UIViewGeometryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F93C7A871E8802E80044FBCD /* 12-HomeWork-UIViewGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				F93C7A8B1E8802E90044FBCD /* AppDelegate.h */,
+				F93C7A8C1E8802E90044FBCD /* AppDelegate.m */,
+				F93C7A8E1E8802E90044FBCD /* ViewController.h */,
+				F93C7A8F1E8802E90044FBCD /* ViewController.m */,
+				F93C7A911E8802E90044FBCD /* Main.storyboard */,
+				F93C7A941E8802E90044FBCD /* Assets.xcassets */,
+				F93C7A961E8802E90044FBCD /* LaunchScreen.storyboard */,
+				F93C7A991E8802E90044FBCD /* Info.plist */,
+				F93C7A881E8802E90044FBCD /* Supporting Files */,
+			);
+			path = "12-HomeWork-UIViewGeometry";
+			sourceTree = "<group>";
+		};
+		F93C7A881E8802E90044FBCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F93C7A891E8802E90044FBCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F93C7AA11E8802E90044FBCD /* 12-HomeWork-UIViewGeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F93C7AA21E8802E90044FBCD /* _2_HomeWork_UIViewGeometryTests.m */,
+				F93C7AA41E8802E90044FBCD /* Info.plist */,
+			);
+			path = "12-HomeWork-UIViewGeometryTests";
+			sourceTree = "<group>";
+		};
+		F93C7AAC1E8802E90044FBCD /* 12-HomeWork-UIViewGeometryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F93C7AAD1E8802E90044FBCD /* _2_HomeWork_UIViewGeometryUITests.m */,
+				F93C7AAF1E8802E90044FBCD /* Info.plist */,
+			);
+			path = "12-HomeWork-UIViewGeometryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F93C7A841E8802E80044FBCD /* 12-HomeWork-UIViewGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93C7AB21E8802E90044FBCD /* Build configuration list for PBXNativeTarget "12-HomeWork-UIViewGeometry" */;
+			buildPhases = (
+				F93C7A811E8802E80044FBCD /* Sources */,
+				F93C7A821E8802E80044FBCD /* Frameworks */,
+				F93C7A831E8802E80044FBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12-HomeWork-UIViewGeometry";
+			productName = "12-HomeWork-UIViewGeometry";
+			productReference = F93C7A851E8802E80044FBCD /* 12-HomeWork-UIViewGeometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F93C7A9D1E8802E90044FBCD /* 12-HomeWork-UIViewGeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93C7AB51E8802E90044FBCD /* Build configuration list for PBXNativeTarget "12-HomeWork-UIViewGeometryTests" */;
+			buildPhases = (
+				F93C7A9A1E8802E90044FBCD /* Sources */,
+				F93C7A9B1E8802E90044FBCD /* Frameworks */,
+				F93C7A9C1E8802E90044FBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93C7AA01E8802E90044FBCD /* PBXTargetDependency */,
+			);
+			name = "12-HomeWork-UIViewGeometryTests";
+			productName = "12-HomeWork-UIViewGeometryTests";
+			productReference = F93C7A9E1E8802E90044FBCD /* 12-HomeWork-UIViewGeometryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F93C7AA81E8802E90044FBCD /* 12-HomeWork-UIViewGeometryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93C7AB81E8802E90044FBCD /* Build configuration list for PBXNativeTarget "12-HomeWork-UIViewGeometryUITests" */;
+			buildPhases = (
+				F93C7AA51E8802E90044FBCD /* Sources */,
+				F93C7AA61E8802E90044FBCD /* Frameworks */,
+				F93C7AA71E8802E90044FBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93C7AAB1E8802E90044FBCD /* PBXTargetDependency */,
+			);
+			name = "12-HomeWork-UIViewGeometryUITests";
+			productName = "12-HomeWork-UIViewGeometryUITests";
+			productReference = F93C7AA91E8802E90044FBCD /* 12-HomeWork-UIViewGeometryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F93C7A7D1E8802E80044FBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Slava;
+				TargetAttributes = {
+					F93C7A841E8802E80044FBCD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F93C7A9D1E8802E90044FBCD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F93C7A841E8802E80044FBCD;
+					};
+					F93C7AA81E8802E90044FBCD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F93C7A841E8802E80044FBCD;
+					};
+				};
+			};
+			buildConfigurationList = F93C7A801E8802E80044FBCD /* Build configuration list for PBXProject "12-HomeWork-UIViewGeometry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F93C7A7C1E8802E80044FBCD;
+			productRefGroup = F93C7A861E8802E80044FBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F93C7A841E8802E80044FBCD /* 12-HomeWork-UIViewGeometry */,
+				F93C7A9D1E8802E90044FBCD /* 12-HomeWork-UIViewGeometryTests */,
+				F93C7AA81E8802E90044FBCD /* 12-HomeWork-UIViewGeometryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F93C7A831E8802E80044FBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93C7A981E8802E90044FBCD /* LaunchScreen.storyboard in Resources */,
+				F93C7A951E8802E90044FBCD /* Assets.xcassets in Resources */,
+				F93C7A931E8802E90044FBCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93C7A9C1E8802E90044FBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93C7AA71E8802E90044FBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F93C7A811E8802E80044FBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93C7A901E8802E90044FBCD /* ViewController.m in Sources */,
+				F93C7A8D1E8802E90044FBCD /* AppDelegate.m in Sources */,
+				F93C7A8A1E8802E90044FBCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93C7A9A1E8802E90044FBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93C7AA31E8802E90044FBCD /* _2_HomeWork_UIViewGeometryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93C7AA51E8802E90044FBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93C7AAE1E8802E90044FBCD /* _2_HomeWork_UIViewGeometryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F93C7AA01E8802E90044FBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93C7A841E8802E80044FBCD /* 12-HomeWork-UIViewGeometry */;
+			targetProxy = F93C7A9F1E8802E90044FBCD /* PBXContainerItemProxy */;
+		};
+		F93C7AAB1E8802E90044FBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93C7A841E8802E80044FBCD /* 12-HomeWork-UIViewGeometry */;
+			targetProxy = F93C7AAA1E8802E90044FBCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F93C7A911E8802E90044FBCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93C7A921E8802E90044FBCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F93C7A961E8802E90044FBCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93C7A971E8802E90044FBCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F93C7AB01E8802E90044FBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F93C7AB11E8802E90044FBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F93C7AB31E8802E90044FBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "12-HomeWork-UIViewGeometry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-2-HomeWork-UIViewGeometry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F93C7AB41E8802E90044FBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "12-HomeWork-UIViewGeometry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-2-HomeWork-UIViewGeometry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F93C7AB61E8802E90044FBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "12-HomeWork-UIViewGeometryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-2-HomeWork-UIViewGeometryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/12-HomeWork-UIViewGeometry.app/12-HomeWork-UIViewGeometry";
+			};
+			name = Debug;
+		};
+		F93C7AB71E8802E90044FBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "12-HomeWork-UIViewGeometryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-2-HomeWork-UIViewGeometryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/12-HomeWork-UIViewGeometry.app/12-HomeWork-UIViewGeometry";
+			};
+			name = Release;
+		};
+		F93C7AB91E8802E90044FBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "12-HomeWork-UIViewGeometryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-2-HomeWork-UIViewGeometryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "12-HomeWork-UIViewGeometry";
+			};
+			name = Debug;
+		};
+		F93C7ABA1E8802E90044FBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "12-HomeWork-UIViewGeometryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-2-HomeWork-UIViewGeometryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "12-HomeWork-UIViewGeometry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F93C7A801E8802E80044FBCD /* Build configuration list for PBXProject "12-HomeWork-UIViewGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93C7AB01E8802E90044FBCD /* Debug */,
+				F93C7AB11E8802E90044FBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93C7AB21E8802E90044FBCD /* Build configuration list for PBXNativeTarget "12-HomeWork-UIViewGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93C7AB31E8802E90044FBCD /* Debug */,
+				F93C7AB41E8802E90044FBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F93C7AB51E8802E90044FBCD /* Build configuration list for PBXNativeTarget "12-HomeWork-UIViewGeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93C7AB61E8802E90044FBCD /* Debug */,
+				F93C7AB71E8802E90044FBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F93C7AB81E8802E90044FBCD /* Build configuration list for PBXNativeTarget "12-HomeWork-UIViewGeometryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93C7AB91E8802E90044FBCD /* Debug */,
+				F93C7ABA1E8802E90044FBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F93C7A7D1E8802E80044FBCD /* Project object */;
+}
